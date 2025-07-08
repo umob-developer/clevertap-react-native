@@ -33,7 +33,7 @@ android {
     compileSdk 35
     buildToolsVersion '35.0.0'
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion 35
         versionCode 350
         versionName "3.5.0"
